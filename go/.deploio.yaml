@@ -1,0 +1,7 @@
+port: 1337
+replicas: 3
+env:
+  - name: RESPONSE_TEXT
+    value: "Hello from a Go deplo.io app!"
+  - name: DELAY_RESPONSE
+    value: "6000µs"
